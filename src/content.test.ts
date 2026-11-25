@@ -19,7 +19,7 @@ describe('content', () => {
     expect(keys(en).sort()).toEqual(keys(fr).sort());
   });
 
-  it('never mentions the private "Ushy" brand in copy or data', () => {
+  it('never mentions the "Ushy" brand in copy or data', () => {
     const published = JSON.stringify([
       fr,
       en,

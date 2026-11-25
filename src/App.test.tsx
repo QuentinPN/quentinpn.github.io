@@ -2,7 +2,7 @@ import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';
 import { App } from './App';
-import { projects } from './data/projects';
+import { featuredProjects, projects } from './data/projects';
 import en from './locales/en.json';
 import fr from './locales/fr.json';
 
@@ -21,14 +21,14 @@ describe('App', () => {
     expect(document.documentElement.lang).toBe('en');
   });
 
-  it('private projects expose no link', () => {
+  it('every project card links to its public repository', () => {
     render(<App />);
-    const privateProjects = projects.filter((project) => project.visibility === 'private');
-    expect(privateProjects.length).toBeGreaterThan(0);
 
-    for (const project of privateProjects) {
+    for (const project of [...featuredProjects, ...projects]) {
+      expect(project.repo).toMatch(/^https:\/\/github\.com\/QuentinPN\/[\w.-]+$/);
       const card = screen.getByRole('article', { name: project.name });
-      expect(within(card).queryAllByRole('link')).toEqual([]);
+      const links = within(card).getAllByRole('link');
+      expect(links.map((link) => link.getAttribute('href'))).toEqual([project.repo]);
     }
   });
 });

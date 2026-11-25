@@ -1050,6 +1050,11 @@ section[id] {
   background: var(--accent);
 }
 
+/* The panel inverts the colours, so the focus ring follows its text */
+.contact :focus-visible {
+  outline-color: var(--panel-fg);
+}
+
 .contact .eyebrow {
   color: var(--panel-muted);
 }
@@ -1347,7 +1352,8 @@ section[id] {
     white-space: normal;
   }
 
-  .marquee__row[aria-hidden='true'] {
+  .marquee__row[aria-hidden='true'],
+  .marquee__sep:last-child {
     display: none;
   }
 }

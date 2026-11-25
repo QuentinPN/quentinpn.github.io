@@ -79,7 +79,7 @@
     "items": {
       "business": {
         "title": "Business applications",
-        "text": "Design and development in C#, .NET and Blazor: a monitoring system for a whole IT estate, a USB burning app for medical imaging."
+        "text": "Design and development in C#, .NET and Blazor: the user interface of the Infodrone, DroneBlocker and DroneDetector counter-drone range, a monitoring system for a whole IT estate, a USB burning app for medical imaging."
       },
       "web": {
         "title": "Full-stack web",
@@ -107,7 +107,7 @@
         "period": "Since October 2024 · Permanent",
         "role": "R&D Software Engineer, C#",
         "place": "TrustComs, Versailles",
-        "text": "Designing and building a monitoring system for an entire IT estate spread across France. New features (automatic replay, detection modes) from technical design to production, plus support, test plans and documentation."
+        "text": "Core of the job: the user interface of the Infodrone, DroneBlocker and DroneDetector counter-drone range (one shared interface, extra features depending on the product) and its features, front end and back end (forwarder, REST export…). New features (automatic replay, detection modes) from technical design to production. Alongside, designing and building a monitoring system for an IT estate spread across France. Support, test plans and documentation."
       },
       "trustcomsAlt": {
         "period": "January 2023 – September 2024 · Work-study",

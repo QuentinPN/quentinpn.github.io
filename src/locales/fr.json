@@ -79,7 +79,7 @@
     "items": {
       "business": {
         "title": "Applications métier",
-        "text": "Conception et développement en C#, .NET et Blazor : un système d'hypervision de parc informatique, une application de gravure de clés USB pour l'imagerie médicale."
+        "text": "Conception et développement en C#, .NET et Blazor : l'interface graphique de la gamme anti-drones Infodrone, DroneBlocker et DroneDetector, un système d'hypervision de parc informatique, une application de gravure de clés USB pour l'imagerie médicale."
       },
       "web": {
         "title": "Web full-stack",
@@ -107,7 +107,7 @@
         "period": "Depuis octobre 2024 · CDI",
         "role": "Ingénieur Recherche & Développement C#",
         "place": "TrustComs, Versailles",
-        "text": "Conception et développement d'un système d'hypervision de l'ensemble du parc informatique, sur toute la France. Nouvelles fonctionnalités (rejeu automatique, modes de détection) de la conception technique à la mise en production, support, plans de test et documentation."
+        "text": "Cœur du poste : l'interface graphique de la gamme anti-drones Infodrone, DroneBlocker et DroneDetector (une interface commune, des fonctions en plus selon le produit) et ses fonctionnalités, côté interface comme côté back-end (forwarder, export REST…). Nouvelles fonctionnalités (rejeu automatique, modes de détection), de la conception technique à la mise en production. En parallèle, conception et développement d'un système d'hypervision du parc informatique sur toute la France. Support, plans de test et documentation."
       },
       "trustcomsAlt": {
         "period": "Janvier 2023 – septembre 2024 · Alternance",

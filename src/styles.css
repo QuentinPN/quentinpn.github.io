@@ -654,7 +654,7 @@ section[id] {
   overflow: hidden;
 }
 
-.cover--hub {
+.cover--shot {
   background: var(--soft);
 }
 
@@ -686,50 +686,6 @@ section[id] {
 .cover__window img {
   width: 100%;
   height: auto;
-}
-
-.cover--feet {
-  display: grid;
-  place-items: center;
-  background: var(--accent);
-  color: var(--on-accent);
-}
-
-.feet {
-  display: grid;
-  justify-items: center;
-  gap: 22px;
-}
-
-.feet__print {
-  display: grid;
-  place-items: center;
-  width: 152px;
-  height: 152px;
-  border-radius: 50%;
-  background: #0b1620;
-  color: #cfe1d5;
-}
-
-.feet__guesses {
-  display: flex;
-  gap: 8px;
-}
-
-.feet__guess {
-  width: 44px;
-  height: 14px;
-  border-radius: var(--radius-pill);
-  border: 2px solid #0b1620;
-}
-
-.feet__guess--miss {
-  background: rgb(11 22 32 / 0.28);
-  border-color: transparent;
-}
-
-.feet__guess--hit {
-  background: #0b1620;
 }
 
 .feature-card__body {
@@ -790,6 +746,19 @@ section[id] {
   grid-column: span 2;
 }
 
+/* Top of a screenshot, same crop on every card */
+.project-card__thumb {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 4px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--soft);
+  object-fit: cover;
+  object-position: top;
+}
+
 .project-card__top {
   display: flex;
   align-items: center;
@@ -802,18 +771,12 @@ section[id] {
 .state {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
   padding: 3px 10px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: var(--radius-pill);
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.78rem;
   font-weight: 500;
-}
-
-.state--public {
-  border-color: var(--line-strong);
-  color: var(--text);
 }
 
 .project-card__name {

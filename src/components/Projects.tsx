@@ -1,8 +1,8 @@
-import { ArrowUpRight, Lock } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { featuredProjects, projects, type FeaturedProject, type Project } from '../data/projects';
 import { GithubMark } from './GithubMark';
-import { AdmissionsHubCover, PokefeetCover } from './ProjectCovers';
+import { AdmissionsHubCover, ViewerCover } from './ProjectCovers';
 import { SectionHeading } from './SectionHeading';
 import { Tags } from './Tags';
 
@@ -15,7 +15,7 @@ function FeaturedCard({ project }: { project: FeaturedProject }) {
       {project.id === 'admissionsHub' ? (
         <AdmissionsHubCover alt={t('projects.items.admissionsHub.coverAlt')} />
       ) : (
-        <PokefeetCover />
+        <ViewerCover alt={t('projects.items.viewer.coverAlt')} />
       )}
       <div className="feature-card__body">
         <p className="meta">
@@ -41,33 +41,36 @@ function ProjectCard({ project }: { project: Project }) {
   const { t } = useTranslation();
   const Icon = project.icon;
   const titleId = `project-${project.id}`;
+  const { thumbnail } = project;
 
   return (
     <article className={`project-card project-card--${project.id}`} aria-labelledby={titleId} data-reveal>
+      {thumbnail ? (
+        <img
+          className="project-card__thumb"
+          src={thumbnail.src}
+          alt={t(thumbnail.altKey)}
+          width={thumbnail.width}
+          height={thumbnail.height}
+          loading="lazy"
+          decoding="async"
+        />
+      ) : null}
       <div className="project-card__top">
         <span className="icon-tile" aria-hidden="true">
           <Icon size={18} />
         </span>
-        {project.visibility === 'private' ? (
-          <span className="state">
-            <Lock size={14} aria-hidden="true" />
-            {t('projects.private')}
-          </span>
-        ) : (
-          <span className="state state--public">{t('projects.public')}</span>
-        )}
+        <span className="state">{t('projects.public')}</span>
       </div>
       <h3 id={titleId} className="project-card__name">
         {project.name}
       </h3>
       <p className="muted">{t(project.descriptionKey)}</p>
       <Tags items={project.stack} />
-      {project.visibility === 'public' ? (
-        <a className="text-link" href={project.repo}>
-          {t('projects.source')}
-          <ArrowUpRight size={15} aria-hidden="true" />
-        </a>
-      ) : null}
+      <a className="text-link" href={project.repo}>
+        {t('projects.source')}
+        <ArrowUpRight size={15} aria-hidden="true" />
+      </a>
     </article>
   );
 }

@@ -38,9 +38,8 @@
   "projects": {
     "eyebrow": "Projets",
     "title": "Des projets menés de bout en bout.",
-    "intro": "Deux dépôts publics à lire en détail, puis les outils que j'héberge et utilise moi-même.",
+    "intro": "Projets perso auto-hébergés, code ouvert : Admissions Hub et Viewer en détail, puis les outils que j'utilise moi-même.",
     "public": "dépôt public",
-    "private": "dépôt privé",
     "source": "Code source",
     "items": {
       "admissionsHub": {
@@ -50,21 +49,24 @@
         "coverAlt": "Liste des candidatures d'Admissions Hub : compteurs par statut, filtre par école et état de synchronisation Salesforce."
       },
       "pokefeet": {
-        "kind": "Jeu web",
-        "tagline": "Deviner un Pokémon à partir de son empreinte",
-        "description": "Un quiz par jour, un mode infini et des indices qui se dévoilent au fil des essais."
+        "description": "Jeu web : deviner un Pokémon à partir de son empreinte, un quiz par jour, un mode infini et des indices qui se dévoilent au fil des essais."
       },
       "cleanup": {
         "description": "Utilitaire qui supprime, après confirmation, les environnements Remote Control de Claude Code restés visibles une fois arrêtés."
       },
       "hub": {
-        "description": "Tableau de bord du homelab : connexion par passkeys (WebAuthn), agent Docker, tests."
+        "description": "Tableau de bord du homelab : connexion par passkeys (WebAuthn), agent Docker, tests.",
+        "thumbAlt": "Tableau de bord Hub : services favoris, état des serveurs et files de téléchargement."
       },
       "request": {
-        "description": "Application de demandes de médias intégrée à Sonarr et Radarr."
+        "description": "Application de demandes de médias intégrée à Sonarr et Radarr.",
+        "thumbAlt": "Écran d'accueil de Request : tendances, demandes en cours et films populaires."
       },
       "viewer": {
-        "description": "Client Emby natif pour Windows et Android TV."
+        "kind": "Application native",
+        "tagline": "Un client Emby natif pour Windows et Android TV",
+        "description": "Lecture native via libmpv, reprise de lecture, recherche et filtres, cache d'images, reconnexion après coupure réseau, application Android TV, tests automatisés.",
+        "coverAlt": "Accueil de Viewer : bandeau « Reprendre », rangées de médias récents et barre de navigation."
       },
       "uninstaller": {
         "description": "Désinstalleur d'applications pour Windows."

@@ -38,9 +38,8 @@
   "projects": {
     "eyebrow": "Projects",
     "title": "Projects I took from start to finish.",
-    "intro": "Two public repositories worth a closer look, followed by the tools I host and use myself.",
+    "intro": "Self-hosted side projects, open source: Admissions Hub and Viewer up close, then the tools I use myself.",
     "public": "public repo",
-    "private": "private repo",
     "source": "Source code",
     "items": {
       "admissionsHub": {
@@ -50,21 +49,24 @@
         "coverAlt": "Admissions Hub application list: counters by status, school filter and Salesforce sync state."
       },
       "pokefeet": {
-        "kind": "Web game",
-        "tagline": "Guess the Pokémon from its footprint",
-        "description": "One puzzle a day, an endless mode, and hints that unlock as you keep guessing."
+        "description": "Web game: guess the Pokémon from its footprint, one puzzle a day, an endless mode, and hints that unlock as you keep guessing."
       },
       "cleanup": {
         "description": "A small tool that deletes, after confirmation, the Claude Code Remote Control environments that stay listed once they have stopped."
       },
       "hub": {
-        "description": "Homelab dashboard: passkey sign-in (WebAuthn), Docker agent, tests."
+        "description": "Homelab dashboard: passkey sign-in (WebAuthn), Docker agent, tests.",
+        "thumbAlt": "Hub dashboard: favorite services, server status and download queues."
       },
       "request": {
-        "description": "Media request app wired into Sonarr and Radarr."
+        "description": "Media request app wired into Sonarr and Radarr.",
+        "thumbAlt": "Request home screen: trending titles, requests in progress and popular movies."
       },
       "viewer": {
-        "description": "Native Emby client for Windows and Android TV."
+        "kind": "Native app",
+        "tagline": "A native Emby client for Windows and Android TV",
+        "description": "Native playback via libmpv, resume, search and filters, image cache, reconnection after network loss, Android TV app, automated tests.",
+        "coverAlt": "Viewer home screen: a Continue watching banner, rows of recent media and the navigation bar."
       },
       "uninstaller": {
         "description": "App uninstaller for Windows."

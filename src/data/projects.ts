@@ -77,7 +77,7 @@ export const projects: Project[] = [
     name: 'Viewer',
     icon: Tv,
     descriptionKey: 'projects.items.viewer.description',
-    stack: ['Tauri 2', 'Svelte 5', 'Rust', 'Kotlin'],
+    stack: ['Go', 'Wails', 'Svelte 5', 'TypeScript', 'Kotlin'],
     visibility: 'private',
   },
   {

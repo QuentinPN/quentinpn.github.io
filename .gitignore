@@ -1,5 +1,14 @@
-# Ignore bak folder
-.bak
+# Dependencies and build output
+node_modules
+dist
+coverage
 
-# Ignore idea folder
+# Editors
 .idea
+.vscode/*
+!.vscode/extensions.json
+
+# Misc
+.bak
+*.log
+.DS_Store

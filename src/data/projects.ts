@@ -33,7 +33,7 @@ export const featuredProjects: FeaturedProject[] = [
     taglineKey: 'projects.items.admissionsHub.tagline',
     descriptionKey: 'projects.items.admissionsHub.description',
     stack: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Drizzle', 'Docker'],
-    repo: 'https://github.com/Lachetquentin/admissions-hub',
+    repo: 'https://github.com/QuentinPN/admissions-hub',
   },
   {
     id: 'pokefeet',
@@ -42,7 +42,7 @@ export const featuredProjects: FeaturedProject[] = [
     taglineKey: 'projects.items.pokefeet.tagline',
     descriptionKey: 'projects.items.pokefeet.description',
     stack: ['C#', 'Blazor Server', 'JavaScript', 'Docker'],
-    repo: 'https://github.com/Lachetquentin/Pokefeet',
+    repo: 'https://github.com/QuentinPN/Pokefeet',
   },
 ];
 
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     descriptionKey: 'projects.items.cleanup.description',
     stack: ['Python'],
     visibility: 'public',
-    repo: 'https://github.com/Lachetquentin/claude-remote-control-cleanup',
+    repo: 'https://github.com/QuentinPN/claude-remote-control-cleanup',
   },
   {
     id: 'hub',

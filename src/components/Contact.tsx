@@ -23,7 +23,7 @@ export function Contact() {
             <GithubMark size={22} />
             <span>
               github.com/<wbr />
-              Lachetquentin
+              QuentinPN
             </span>
             <ArrowUpRight size={18} aria-hidden="true" />
           </a>

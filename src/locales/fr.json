@@ -59,17 +59,18 @@
         "thumbAlt": "Tableau de bord Hub : services favoris, état des serveurs et files de téléchargement."
       },
       "request": {
-        "description": "Application de demandes de médias intégrée à Sonarr et Radarr.",
+        "description": "Application de demandes de médias intégrée à Sonarr et Radarr, avec une connexion dédiée aux applis natives comme Viewer.",
         "thumbAlt": "Écran d'accueil de Request : tendances, demandes en cours et films populaires."
       },
       "viewer": {
         "kind": "Application native",
         "tagline": "Un client Emby natif pour Windows et Android TV",
-        "description": "Lecture native via libmpv, reprise de lecture, recherche et filtres, cache d'images, reconnexion après coupure réseau, application Android TV, tests automatisés.",
+        "description": "Lecture native via libmpv, reprise de lecture, recherche et filtres, cache d'images, reconnexion après coupure réseau, application Android TV, tests automatisés. Intégré à Request : on parcourt le catalogue, on demande un film ou une série et on suit ses demandes sans quitter l'app, avec son compte Emby.",
         "coverAlt": "Accueil de Viewer : bandeau « Reprendre », rangées de médias récents et barre de navigation."
       },
       "uninstaller": {
-        "description": "Désinstalleur d'applications pour Windows."
+        "description": "Désinstalleur d'applications pour Windows.",
+        "thumbAlt": "Liste des programmes installés dans Uninstaller, avec tri, filtres et taille de chaque programme."
       }
     }
   },

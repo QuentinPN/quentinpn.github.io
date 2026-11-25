@@ -3,6 +3,7 @@ import type { LucideIcon } from 'lucide-react';
 import { Clapperboard, LayoutDashboard, PackageX, PawPrint, Terminal } from 'lucide-react';
 import hubShot from '../assets/projects/hub.webp';
 import requestShot from '../assets/projects/request.webp';
+import uninstallerShot from '../assets/projects/uninstaller.webp';
 
 export type FeaturedProject = {
   id: 'admissionsHub' | 'viewer';
@@ -74,6 +75,7 @@ export const projects: Project[] = [
     descriptionKey: 'projects.items.uninstaller.description',
     stack: ['Tauri 2', 'Svelte 5', 'Rust'],
     repo: 'https://github.com/QuentinPN/uninstaller',
+    thumbnail: { src: uninstallerShot, width: 1400, height: 900, altKey: 'projects.items.uninstaller.thumbAlt' },
   },
   {
     id: 'cleanup',

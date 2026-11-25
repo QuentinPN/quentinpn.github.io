@@ -59,17 +59,18 @@
         "thumbAlt": "Hub dashboard: favorite services, server status and download queues."
       },
       "request": {
-        "description": "Media request app wired into Sonarr and Radarr.",
+        "description": "Media request app wired into Sonarr and Radarr, with a dedicated sign-in for native apps such as Viewer.",
         "thumbAlt": "Request home screen: trending titles, requests in progress and popular movies."
       },
       "viewer": {
         "kind": "Native app",
         "tagline": "A native Emby client for Windows and Android TV",
-        "description": "Native playback via libmpv, resume, search and filters, image cache, reconnection after network loss, Android TV app, automated tests.",
+        "description": "Native playback via libmpv, resume, search and filters, image cache, reconnection after network loss, Android TV app, automated tests. Built-in Request integration: browse the catalogue, request a film or series and follow your requests without leaving the app, signed in with your Emby account.",
         "coverAlt": "Viewer home screen: a Continue watching banner, rows of recent media and the navigation bar."
       },
       "uninstaller": {
-        "description": "App uninstaller for Windows."
+        "description": "App uninstaller for Windows.",
+        "thumbAlt": "Installed programs list in Uninstaller, with sorting, filters and the size of each program."
       }
     }
   },

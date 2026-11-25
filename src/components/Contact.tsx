@@ -1,7 +1,8 @@
 import { ArrowUpRight, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { EMAIL, GITHUB_URL } from '../data/links';
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from '../data/links';
 import { GithubMark } from './GithubMark';
+import { LinkedinMark } from './LinkedinMark';
 
 export function Contact() {
   const { t } = useTranslation();
@@ -24,6 +25,14 @@ export function Contact() {
             <span>
               github.com/<wbr />
               QuentinPN
+            </span>
+            <ArrowUpRight size={18} aria-hidden="true" />
+          </a>
+          <a className="contact__link" href={LINKEDIN_URL}>
+            <LinkedinMark size={22} />
+            <span>
+              linkedin.com/in/<wbr />
+              poullain-quentin
             </span>
             <ArrowUpRight size={18} aria-hidden="true" />
           </a>

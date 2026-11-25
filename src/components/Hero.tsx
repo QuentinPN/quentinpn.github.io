@@ -1,7 +1,8 @@
 import { ArrowUpRight, Mail, MapPin } from 'lucide-react';
 import { Trans, useTranslation } from 'react-i18next';
-import { EMAIL, GITHUB_URL } from '../data/links';
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from '../data/links';
 import { GithubMark } from './GithubMark';
+import { LinkedinMark } from './LinkedinMark';
 
 // Drop a photo (avif, webp, jpg or png) in src/assets/avatar/ and it replaces the monogram.
 const avatarFiles = import.meta.glob<string>('../assets/avatar/*.{avif,webp,jpg,jpeg,png}', {
@@ -32,6 +33,11 @@ export function Hero() {
           <a className="pill pill--ghost" href={GITHUB_URL}>
             <GithubMark />
             {t('hero.ctaGithub')}
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+          <a className="pill pill--ghost" href={LINKEDIN_URL}>
+            <LinkedinMark />
+            {t('hero.ctaLinkedin')}
             <ArrowUpRight size={16} aria-hidden="true" />
           </a>
         </div>

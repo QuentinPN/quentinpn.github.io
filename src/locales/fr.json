@@ -38,7 +38,7 @@
   "projects": {
     "eyebrow": "Projets",
     "title": "Des projets menés de bout en bout.",
-    "intro": "Projets perso auto-hébergés, code ouvert : Admissions Hub et Viewer en détail, puis les outils que j'utilise moi-même.",
+    "intro": "Tout le code est ouvert : Admissions Hub et Viewer en détail, puis les outils que j'héberge et utilise moi-même.",
     "public": "dépôt public",
     "source": "Code source",
     "items": {

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Quentin Poullain · Concepteur développeur C#, JavaScript, SQL",
+    "description": "Quentin Poullain, concepteur développeur C#, JavaScript et SQL basé à Paris. Applications métier de bout en bout, des spécifications à la mise en production et au support."
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "home": "Quentin Poullain, retour en haut",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "themeToLight": "Passer au thème clair",
+    "themeToDark": "Passer au thème sombre",
+    "language": "Langue",
+    "sections": "Sections"
+  },
+  "nav": {
+    "projects": "Projets",
+    "expertise": "Expertise",
+    "career": "Parcours",
+    "contact": "Contact",
+    "cta": "Me contacter"
+  },
+  "hero": {
+    "badge": "Basé à Paris, ouvert à la mobilité",
+    "title": "Des applications métier <hl>fiables</hl>, de la spec à la prod.",
+    "intro": "Je suis Quentin Poullain, concepteur développeur C#, JavaScript et SQL. Je traduis les spécifications fonctionnelles en conception technique, puis je développe, je teste, je documente et j'accompagne les utilisateurs au quotidien.",
+    "ctaContact": "Me contacter",
+    "ctaGithub": "GitHub",
+    "xpValue": "3+ ans",
+    "xpLabel": "d'expérience",
+    "location": "Paris · mobile",
+    "avatarAlt": "Portrait de Quentin Poullain"
+  },
+  "marquee": {
+    "label": "Entreprises, écoles et technologies"
+  },
+  "projects": {
+    "eyebrow": "Projets",
+    "title": "Des projets menés de bout en bout.",
+    "intro": "Deux dépôts publics à lire en détail, puis les outils que j'héberge et utilise moi-même.",
+    "public": "dépôt public",
+    "private": "dépôt privé",
+    "source": "Code source",
+    "items": {
+      "admissionsHub": {
+        "kind": "Portail web",
+        "tagline": "Les candidatures de plusieurs écoles, synchronisées avec Salesforce",
+        "description": "Rôles et isolation par école imposés par l'API, envoi de chaque candidature en Lead via OAuth 2.0 avec PKCE, schémas Zod partagés entre le front et l'API, documentation OpenAPI 3.1, interface bilingue.",
+        "coverAlt": "Liste des candidatures d'Admissions Hub : compteurs par statut, filtre par école et état de synchronisation Salesforce."
+      },
+      "pokefeet": {
+        "kind": "Jeu web",
+        "tagline": "Deviner un Pokémon à partir de son empreinte",
+        "description": "Un quiz par jour, un mode infini et des indices qui se dévoilent au fil des essais."
+      },
+      "cleanup": {
+        "description": "Utilitaire qui supprime, après confirmation, les environnements Remote Control de Claude Code restés visibles une fois arrêtés."
+      },
+      "hub": {
+        "description": "Tableau de bord du homelab : connexion par passkeys (WebAuthn), agent Docker, tests."
+      },
+      "request": {
+        "description": "Application de demandes de médias intégrée à Sonarr et Radarr."
+      },
+      "viewer": {
+        "description": "Client Emby natif pour Windows et Android TV."
+      },
+      "uninstaller": {
+        "description": "Désinstalleur d'applications pour Windows."
+      }
+    }
+  },
+  "expertise": {
+    "eyebrow": "Expertise",
+    "title": "Là où je suis le plus utile.",
+    "tagsLabel": "Avec, entre autres :",
+    "ai": "J'utilise des agents de code IA (Claude Code) au quotidien pour livrer plus vite.",
+    "items": {
+      "business": {
+        "title": "Applications métier",
+        "text": "Conception et développement en C#, .NET et Blazor : un système d'hypervision de parc informatique, une application de gravure de clés USB pour l'imagerie médicale."
+      },
+      "web": {
+        "title": "Web full-stack",
+        "text": "Interfaces et API en JavaScript et TypeScript, adossées à des bases SQL."
+      },
+      "lifecycle": {
+        "title": "Cycle complet",
+        "text": "Du besoin à la conception technique, puis tests, recette, mise en production et support des utilisateurs, documentation comprise."
+      }
+    }
+  },
+  "career": {
+    "eyebrow": "Parcours",
+    "title": "De l'alternance à la R&D.",
+    "kindJob": "Expérience",
+    "kindSchool": "Formation",
+    "stats": {
+      "yearsValue": "3+ ans",
+      "yearsLabel": "en entreprise, sur des applications métier",
+      "degreeValue": "Master",
+      "degreeLabel": "titre RNCP niveau 7"
+    },
+    "items": {
+      "trustcomsRd": {
+        "period": "Depuis octobre 2024 · CDI",
+        "role": "Ingénieur Recherche & Développement C#",
+        "place": "TrustComs, Versailles",
+        "text": "Conception et développement d'un système d'hypervision de l'ensemble du parc informatique, sur toute la France. Nouvelles fonctionnalités (rejeu automatique, modes de détection) de la conception technique à la mise en production, support, plans de test et documentation."
+      },
+      "trustcomsAlt": {
+        "period": "Janvier 2023 – septembre 2024 · Alternance",
+        "role": "Développeur C#",
+        "place": "TrustComs, Versailles",
+        "text": "Nouvelles fonctionnalités (rejeu de vols, marqueurs sur la carte), mise en place des tests, documentation technique et utilisateur."
+      },
+      "mptronic": {
+        "period": "Octobre 2021 – août 2022 · Alternance",
+        "role": "Développeur C#",
+        "place": "MPTronic (imagerie médicale), Paris",
+        "text": "Application métier de gravure de clés USB pour les examens patients, maintenance corrective de l'application de radiologie, documentation utilisateur."
+      },
+      "master": {
+        "period": "2021 – 2024",
+        "role": "Master, titre RNCP niveau 7",
+        "place": "Management et gestion de projet SI · Institut G4, Paris"
+      },
+      "bwit": {
+        "period": "Janvier – mars 2021 · Stage",
+        "role": "Développeur web",
+        "place": "BWiT, Champs-sur-Marne"
+      },
+      "bts": {
+        "period": "2019 – 2021",
+        "role": "BTS SIO, option SLAM",
+        "place": "Solutions logicielles et applications métiers · Lycée Louise Michel, Bobigny"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Un poste, un projet, une question ?",
+    "text": "Le plus simple reste un e-mail. Mon code est aussi sur GitHub."
+  },
+  "footer": {
+    "copyright": "© 2026 Quentin Poullain",
+    "top": "Haut de page"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Quentin Poullain · Software developer, C#, JavaScript, SQL",
+    "description": "Quentin Poullain, a Paris-based software developer working in C#, JavaScript and SQL. Business applications end to end, from specs to production and user support."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Quentin Poullain, back to top",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme",
+    "language": "Language",
+    "sections": "Sections"
+  },
+  "nav": {
+    "projects": "Projects",
+    "expertise": "Expertise",
+    "career": "Background",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "badge": "Based in Paris, open to relocation",
+    "title": "Business software you can <hl>rely on</hl>, from spec to production.",
+    "intro": "I'm Quentin Poullain, a software developer working in C#, JavaScript and SQL. I turn functional specs into technical designs, then build, test and document the software, and support the people who use it every day.",
+    "ctaContact": "Get in touch",
+    "ctaGithub": "GitHub",
+    "xpValue": "3+ years",
+    "xpLabel": "of experience",
+    "location": "Paris · open to relocation",
+    "avatarAlt": "Portrait of Quentin Poullain"
+  },
+  "marquee": {
+    "label": "Companies, schools and technologies"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Projects I took from start to finish.",
+    "intro": "Two public repositories worth a closer look, followed by the tools I host and use myself.",
+    "public": "public repo",
+    "private": "private repo",
+    "source": "Source code",
+    "items": {
+      "admissionsHub": {
+        "kind": "Web portal",
+        "tagline": "Applications from several schools, synced with Salesforce",
+        "description": "Roles and per-school isolation enforced by the API, each application pushed to Salesforce as a Lead over OAuth 2.0 with PKCE, Zod schemas shared by front end and API, OpenAPI 3.1 docs, bilingual interface.",
+        "coverAlt": "Admissions Hub application list: counters by status, school filter and Salesforce sync state."
+      },
+      "pokefeet": {
+        "kind": "Web game",
+        "tagline": "Guess the Pokémon from its footprint",
+        "description": "One puzzle a day, an endless mode, and hints that unlock as you keep guessing."
+      },
+      "cleanup": {
+        "description": "A small tool that deletes, after confirmation, the Claude Code Remote Control environments that stay listed once they have stopped."
+      },
+      "hub": {
+        "description": "Homelab dashboard: passkey sign-in (WebAuthn), Docker agent, tests."
+      },
+      "request": {
+        "description": "Media request app wired into Sonarr and Radarr."
+      },
+      "viewer": {
+        "description": "Native Emby client for Windows and Android TV."
+      },
+      "uninstaller": {
+        "description": "App uninstaller for Windows."
+      }
+    }
+  },
+  "expertise": {
+    "eyebrow": "Expertise",
+    "title": "Where I'm most useful.",
+    "tagsLabel": "Tools I use, among others:",
+    "ai": "I work with AI coding agents (Claude Code) every day to ship faster.",
+    "items": {
+      "business": {
+        "title": "Business applications",
+        "text": "Design and development in C#, .NET and Blazor: a monitoring system for a whole IT estate, a USB burning app for medical imaging."
+      },
+      "web": {
+        "title": "Full-stack web",
+        "text": "Interfaces and APIs in JavaScript and TypeScript, backed by SQL databases."
+      },
+      "lifecycle": {
+        "title": "The whole cycle",
+        "text": "From the need to the technical design, then testing, acceptance, production release and user support, documentation included."
+      }
+    }
+  },
+  "career": {
+    "eyebrow": "Background",
+    "title": "From apprentice to R&D engineer.",
+    "kindJob": "Work",
+    "kindSchool": "Education",
+    "stats": {
+      "yearsValue": "3+ years",
+      "yearsLabel": "in industry, on business applications",
+      "degreeValue": "Master's",
+      "degreeLabel": "RNCP level 7 degree"
+    },
+    "items": {
+      "trustcomsRd": {
+        "period": "Since October 2024 · Permanent",
+        "role": "R&D Software Engineer, C#",
+        "place": "TrustComs, Versailles",
+        "text": "Designing and building a monitoring system for an entire IT estate spread across France. New features (automatic replay, detection modes) from technical design to production, plus support, test plans and documentation."
+      },
+      "trustcomsAlt": {
+        "period": "January 2023 – September 2024 · Work-study",
+        "role": "C# Developer",
+        "place": "TrustComs, Versailles",
+        "text": "New features (flight replay, map markers), test setup, technical and user documentation."
+      },
+      "mptronic": {
+        "period": "October 2021 – August 2022 · Work-study",
+        "role": "C# Developer",
+        "place": "MPTronic (medical imaging), Paris",
+        "text": "A business app that burns patient exams onto USB drives, bug fixes on the radiology application, user documentation."
+      },
+      "master": {
+        "period": "2021 – 2024",
+        "role": "Master's degree, RNCP level 7",
+        "place": "IT project management · Institut G4, Paris"
+      },
+      "bwit": {
+        "period": "January – March 2021 · Internship",
+        "role": "Web Developer",
+        "place": "BWiT, Champs-sur-Marne"
+      },
+      "bts": {
+        "period": "2019 – 2021",
+        "role": "BTS SIO, software development track",
+        "place": "Two-year degree in software and business applications · Lycée Louise Michel, Bobigny"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "A role, a project, a question?",
+    "text": "Email is the simplest way to reach me. My code lives on GitHub."
+  },
+  "footer": {
+    "copyright": "© 2026 Quentin Poullain",
+    "top": "Back to top"
+  }
+}
